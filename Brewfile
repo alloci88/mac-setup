@@ -1,0 +1,10 @@
+brew "git"
+brew "gh"
+brew "terraform"
+brew "azure-cli"
+brew "ansible"
+
+cask "visual-studio-code"
+cask "docker"
+cask "github"
+cask "coteditor"
