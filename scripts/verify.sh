@@ -17,3 +17,6 @@ ansible --version
 
 echo "Checking Docker..."
 docker --version
+
+echo "Checking Podman..."
+podman --version
