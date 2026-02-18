@@ -1,0 +1,73 @@
+SETUP:
+Sistema:
+- macOS en arquitectura darwin_arm64.
+- Shell: zsh.
+- Usuario: alloci.
+- Home directory: /Users/alloci
+
+Preferencias de trabajo:
+- Editor principal: Visual Studio Code.
+- Cliente Git gráfico preferido: GitHub Desktop.
+- Gestión de contenedores preferida: Podman Desktop.
+- Prioridad: herramientas con interfaz gráfica cuando aportan claridad.
+- Uso de consola: cuando es más eficiente o necesario.
+
+Homebrew:
+- Instalado en: /opt/homebrew
+- PATH configurado correctamente con /opt/homebrew/bin al inicio.
+- Verificado con: brew --version y brew doctor.
+
+Terraform:
+- Instalado manualmente (oficial).
+- Versión: 1.14.5
+- Ubicación: /usr/local/bin/terraform
+- No uso Terraform de Homebrew (licencia BUSL).
+
+Git:
+- Instalado vía Homebrew.
+- Ruta activa: /opt/homebrew/bin/git
+- Configurado globalmente.
+- Cuenta GitHub asociada: https://github.com/alloci88
+
+GitHub:
+- gh CLI autenticado correctamente.
+- GitHub Desktop instalado.
+- Usuario: alloci88
+
+Azure:
+- Cuenta activa: alvaro.lopez223@comunidadunir.net
+- Tipo de suscripción: Azure for Students
+- Azure CLI instalado y operativo.
+
+VS Code:
+- Instalado.
+- `code` en PATH.
+- Extensiones instaladas:
+    - HashiCorp Terraform
+    - Azure Tools
+    - Ansible
+    - GitLens
+
+Docker:
+- Docker Desktop instalado.
+
+Podman:
+- Instalado vía Homebrew.
+- Podman Desktop instalado.
+- Máquina iniciada con:
+    podman machine init
+    podman machine start
+- Verificado con:
+    podman --version
+    podman info
+
+Ansible:
+- Instalado vía Homebrew.
+
+Estructura de entorno reproducible:
+
+/Users/alloci/SETUP
+    Brewfile
+    README.md
+    scripts/install_terraform.sh
+    scripts/verify.sh
