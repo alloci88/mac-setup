@@ -12,7 +12,5 @@ brew bundle
 ## Actualizar Brewfile con lo instalado actualmente (opcional)
 brew bundle dump --force
 
-## Contenedores
-- Docker Desktop
-- Podman + Podman Desktop
+
 
