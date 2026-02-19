@@ -9,8 +9,6 @@ Preferencias de trabajo:
 - Editor principal: Visual Studio Code.
 - Cliente Git gráfico preferido: GitHub Desktop.
 - Gestión de contenedores preferida: Podman Desktop.
-- Prioridad: herramientas con interfaz gráfica cuando aportan claridad.
-- Uso de consola: cuando es más eficiente o necesario.
 
 Homebrew:
 - Instalado en: /opt/homebrew
