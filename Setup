@@ -48,9 +48,6 @@ VS Code:
     - Ansible
     - GitLens
 
-Docker:
-- Docker Desktop instalado.
-
 Podman:
 - Instalado vía Homebrew.
 - Podman Desktop instalado.
