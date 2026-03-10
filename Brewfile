@@ -1,21 +1,20 @@
 brew "git"
 brew "gh"
-brew "terraform"
 brew "azure-cli"
 brew "ansible"
 brew "podman"
 
-# runtimes IA
+# RUNTIMES IA
 brew "node"
 brew "python"
 brew "ollama"
 brew "uv"
 
-# utilidades LLM
+# UTILIDADES LLM
 brew "aider"
 brew "llm"
 
-# útiles para agentes
+# UTILES PARA AGENTES
 brew "ripgrep"
 brew "jq"
 brew "fd"
