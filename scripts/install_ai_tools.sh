@@ -2,12 +2,18 @@
 
 echo "Installing AI development tools..."
 
-brew install node
-brew install python
-brew install ollama
-brew install aider
-brew install llm
+echo "Installing Brew dependencies..."
+brew bundle --file ~/SETUP/Brewfile
 
-brew install --cask cursor
+echo "Preparing CrewAI environment..."
+
+mkdir -p ~/ai-agents
+cd ~/ai-agents
+
+if [ ! -f pyproject.toml ]; then
+    uv init
+fi
+
+uv add crewai
 
 echo "AI tools installation completed"
