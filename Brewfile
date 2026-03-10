@@ -1,12 +1,13 @@
 brew "git"
 brew "gh"
+brew "terraform"
 brew "azure-cli"
 brew "ansible"
 brew "podman"
 
 # RUNTIMES IA
 brew "node"
-brew "python"
+brew "python@3.13"
 brew "ollama"
 brew "uv"
 
@@ -21,7 +22,7 @@ brew "fd"
 
 cask "visual-studio-code"
 cask "cursor"
-cask "docker"
+cask "docker-desktop"
 cask "github"
 cask "coteditor"
 cask "podman-desktop"
