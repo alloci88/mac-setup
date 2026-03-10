@@ -20,3 +20,15 @@ docker --version
 
 echo "Checking Podman..."
 podman --version
+
+echo "Checking Ollama..."
+ollama --version
+
+echo "Checking Aider..."
+aider --version
+
+echo "Checking LLM CLI..."
+llm --version
+
+echo "Checking Node..."
+node --version
