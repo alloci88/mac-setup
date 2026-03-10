@@ -60,4 +60,20 @@ else
     exit 1
 fi
 
+echo "Checking Claude Desktop..."
+if [ -d "/Applications/Claude.app" ]; then
+    echo "Claude.app installed"
+else
+    echo "Claude.app not found"
+    exit 1
+fi
+
+echo "Checking Claude Code..."
+if command -v claude >/dev/null 2>&1; then
+    claude --version
+else
+    echo "Claude Code CLI not found"
+    exit 1
+fi
+
 echo "All checks passed successfully"
