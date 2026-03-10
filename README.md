@@ -1,16 +1,22 @@
 # mac-setup
 
-Entorno reproducible para mi Mac usando Homebrew Bundle.
+Entorno reproducible para mi Mac usando Homebrew Bundle y scripts de verificación.
 
 ## Requisitos
+
 - macOS
-- Homebrew
+- Homebrew instalado en `/opt/homebrew`
+- Shell `zsh`
 
-## Instalación
-brew bundle
+## Estructura
 
-## Actualizar Brewfile con lo instalado actualmente (opcional)
-brew bundle dump --force
+```text
+mac-setup/
+├── Brewfile
+├── README.md
+└── scripts/
+    ├── install_ai_tools.sh
+    └── verify.sh
 
 
 
