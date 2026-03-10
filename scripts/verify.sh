@@ -60,30 +60,4 @@ else
     exit 1
 fi
 
-echo "All checks passed successfully"echo "Checking Node..."
-node --version
-
-echo "Checking Python..."
-python3 --version
-
-echo "Checking uv..."
-uv --version
-
-echo "Checking Cursor..."
-if [ -d "/Applications/Cursor.app" ]; then
-    echo "Cursor.app installed"
-else
-    echo "Cursor.app not found"
-    exit 1
-fi
-
-echo "Checking CrewAI..."
-if [ -d "$AI_AGENTS_DIR" ]; then
-    cd "$AI_AGENTS_DIR"
-    uv run python -c "import crewai; print('CrewAI OK')"
-else
-    echo "CrewAI environment directory not found: $AI_AGENTS_DIR"
-    exit 1
-fi
-
 echo "All checks passed successfully"
