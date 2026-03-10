@@ -5,16 +5,17 @@ brew "azure-cli"
 brew "ansible"
 brew "podman"
 
-# runtime IA
+# runtimes IA
 brew "node"
 brew "python"
 brew "ollama"
+brew "uv"
 
-# utilidades agentes / llm
+# utilidades LLM
 brew "aider"
 brew "llm"
 
-# opcional pero muy útil
+# útiles para agentes
 brew "ripgrep"
 brew "jq"
 brew "fd"
